@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+ body{
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+} 
+.typinglog{
+    
+  height: 30px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 8px; 
+   
+
+}
+ .navabar{
+    /* background-color: #089fcd; */
+    background-color: #333;
+    margin: 10px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    
+
+}
+.logo a{
+    color: #0af440;
+    /* color: #fff; */
+    font-size: none;
+    font-weight: bold;
+    font-style: italic;
+   
+
+}
+
+.navb-itmes{
+    list-style: none;
+    display: flex;
+    /* color: #ff00ff; */
+   
+    gap: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-style: italic;
+    font-size: 18px;
+
+
+
+}
+.navb-itmes li a{
+    color: rgb(17, 224, 17)
+}
+.navb-itmes li a:hover {
+    /* color: hwb(347 6% 5%); */
+    color: #ff4081;;
+    border-bottom: 2px solid #ff4081;
+} 
+
+/* Basic styling for image container */
+/* .image-container {
+    display: flex;
+    gap: 20px; /* Space between images */
+    /* justify-content: center;
+    align-items: center;
+    margin-top: 20px; */
+  
+    .page-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 89vh;
+        padding: 20px;
+        background-color: #000;
+        position: relative;
+        overflow: hidden;
+        animation: borderAnimation 5s linear infinite;
+        border: 10px solid;
+        border-image: linear-gradient(45deg, #ff007f, #06b1d3bc, #ff00ff, #00ff6acf) 1;
+        margin-top: 10px; 
+    } 
+    
+    
+    
+    .image-container {
+        position: relative;
+        width: 640px;
+        height: 360px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    
+    .border-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 5px solid transparent; 
+        border-radius: 20px;
+        animation: borderAnimation 4s linear infinite; 
+        background-clip: padding-box; 
+    }
+    
+    
+    .background-image {
+         width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        border-radius: 15px;
+    }
+    
+    .text-overlay {
+        font-family: Arial, Helvetica, sans-serif sans-serif;
+         font-size: 2em;
+        color: #fff;
+        position: absolute;
+        z-index: 1;
+        text-align: center;
+    }
+    
+    
+    .bubble {
+          position:absolute;
+        bottom: 0;
+        border-radius: 50%;
+         animation: float 6s infinite; 
+        opacity: 0.8; 
+    }
+    
+    
+    .bubble:nth-child(3) {
+        left: 20%;
+        width: 20px;
+        height: 20px;
+        background-color: #ff007f;
+        animation-delay: 0s;
+    }
+    .bubble:nth-child(4) {
+        left: 40%;
+        width: 25px;
+        height: 25px;
+        background-color: #00d4ff;
+        animation-delay: 1.5s;
+    }
+    .bubble:nth-child(5) {
+        left: 60%;
+        width: 18px;
+        height: 18px;
+        background-color: #ff00ff;
+        animation-delay: 3s;
+    }
+    .bubble:nth-child(6) {
+        left: 80%;
+        width: 15px;
+        height: 15px;
+        background-color: #00ff6b;
+        animation-delay: 2.5s;
+    }
+    .bubble:nth-child(7) {
+        left: 10%;
+        width: 22px;
+        height: 22px;
+        background-color: #ffdd00;
+        animation-delay: 3.8s;
+    }
+    .bubble:nth-child(8) {
+        left: 70%;
+        width: 22px;
+        height: 22px;
+        background-color: blueviolet;
+        animation-delay: 4s;
+    }
+
+    
+ 
+    @keyframes float {
+        0% {
+            transform:translateY(0);
+            opacity: 0.8;
+        }
+        50% {
+            opacity: 1;
+            transform: translateY(-180px);
+        }
+        100% {
+            transform: translateY(-360px);
+            opacity: 0;
+        }
+    }
+    
+     
+    @keyframes borderAnimation {
+        0% {
+            border-image: linear-gradient(45deg, #ff007f, #00d4ff, #ff00ff, #00ff6b) 1;
+        }
+        50% {
+            border-image: linear-gradient(45deg, #00d4ff, #ec09ec, #00ff6b, #ff007f) 1;
+        }
+        100% {
+            border-image: linear-gradient(45deg, #ff00ff, #00ff6b, #ff007f, #00d4ff) 1;
+        }
+    } 
+    
+
+   

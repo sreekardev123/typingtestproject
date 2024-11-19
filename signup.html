@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+ body{
+
+
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+
+} 
+.typinglog{
+
+height: 30px;
+width: auto;
+vertical-align: middle;
+margin-right: 8px; 
+
+
+}
+.navabar{
+/* background-color: #089fcd; */
+background-color: #333;
+margin: 10px;
+padding: 18px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0%;
+
+
+}
+.logo a{
+color: #0af440;
+/* color: #fff; */
+font-size: none;
+font-weight: bold;
+font-style: italic;
+
+
+}
+
+.navb-itmes{
+list-style: none;
+display: flex;
+/* color: #ff00ff; */
+
+gap: 20px;
+font-weight: bolder;
+margin-left: 20px;
+font-style: italic;
+font-size: 18px;
+
+
+
+}
+.navb-itmes li a{
+color: rgb(17, 224, 17)
+}
+.navb-itmes li a:hover {
+/* color: hwb(347 6% 5%); */
+color: #ff4081;;
+border-bottom: 2px solid #ff4081;
+}     
+
+
+    body{
+     background-color: #f7f7f7;
+     font-family: Arial, sans-serif;
+    }
+    .signup{
+      max-width: 400px;
+      margin: 50px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgb(0,0,0,0.2);
+    }
+    h2{
+      text-align: center;
+      margin-bottom: 20px;
+
+    }
+    button{
+      display:block;
+      width: 100%;
+      padding: 10px;
+      font-size: 15px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .btn-facebook{
+      background-color: #3b5998;
+      color: #fff;
+      margin-bottom: 11px;
+
+    }
+    .btn-google{
+      background-color:rgba(255, 0, 0, 0.781);
+      color: white;
+      margin-bottom: 25px;
+    }
+    .text-center{
+      text-align: center;
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+    }
+    .form-group{
+      margin-bottom: 15px;
+    }
+    label{
+      margin-bottom: 5px;
+      display: block;
+      font-size: 15px;
+
+    }
+    input[type="email"],
+    input[type="text"],
+    input[type="password"]{
+      width: 100%;
+      padding: 10px;
+      font-size: 13px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    .form-check{
+      margin-bottom: 15px;
+    }
+    .form-check-input{
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    .form-check label{
+      display:inline-block;
+      margin-bottom: 10px;
+      font-size: 14px;
+      vertical-align: middle;
+    }
+    .btn-success{
+      background-color: rgba(21, 216, 21, 0.718);
+      color: #fff;
+    }
+    .btn-success:hover{
+      background-color: #218838;
+    }
+    a{
+      color: #3b5998;
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+    .sign-link{
+      text-align: center;
+      margin-top: 25px;
+      font-size: 15px;
+    }
+
+  </style>
+</head>
+<body>
+  <nav class="navabar">
+    <div class="logo">
+      <a href="#" style="text-decoration: none;">
+        <img src="./typinglog-removebg-preview.png" alt="Typing Logo" class="typinglog">
+        Typing Speed Test</a>
+    </div>
+    <ul class="navb-itmes">
+      <li><a href="home.html" style="text-decoration: none;">Home</a></li>
+      <li><a href="./aboutus.html" style="text-decoration: none;">About us</a></li>
+      <li><a href="typingtest.html" style="text-decoration: none;"> Typing Test</a></li>
+      <li><a href="./pricingplans.html" style="text-decoration: none;">Pricing Plans</a></li>
+      <li><a href="./signup.html" style="text-decoration: none;">sign up</a></li>
+      <li><a href="./signin.html" style="text-decoration: none;">Sign In</a></li>
+    </ul>
+
+  
+  </nav> 
+
+
+
+  <div class="signup">
+<h2>Sign Up</h2>
+
+<button class="btn-facebook">LOGIN WITH FACEBOOK </button>
+<button class="btn-google "> LOGIN WITH GOOGLE</button>
+
+
+<div class="text-center">
+  <span>OR</span>
+</div>
+
+<form action="/submit_signup" method="post">
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="username">User Name</label>
+    <input type="text" id="username" placeholder="username" required>
+
+  </div>
+
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Password" required>
+  </div>
+
+  <div class="form-group">
+    <label for="conformpassword">Conform Password</label>
+    <input type="text" id="conformpassword" placeholder="conform Password" required>
+  </div>
+
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" required>
+    <label for="tos">I accept<a href="./tearmsandcondition.html" >Tearm and Sevice</a>(**)</label>
+  </div>
+
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" required>
+     <label for="privacy"> I  accept <a href="./privacypolicy.html">Privcy Policy</a>(**)</label>
+  </div>
+
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input">
+    <label for="promp">I want to get a promotional message </label>
+
+  </div>
+ 
+  <button type="submit" class="btn-success">signup</button>
+
+  <div class="sign-link">
+    Alerady have an account <a href="signin.html">Sign In </a>
+  </div>
+</form>
+
+
+
+  </div>
+  
+</body>
+</html>
+
