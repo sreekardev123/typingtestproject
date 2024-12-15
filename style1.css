@@ -123,4 +123,151 @@ body{
 .result-details li b{
     font-weight: 500;
 }
+/* Media Queries */
+
+/* For devices with a max-width of 1024px (tablets) */
+@media (max-width: 1024px) {
+    .wrapper {
+      width: 90%;
+      padding: 25px;
+    }
+  
+    .content-box {
+      padding: 15px;
+    }
+  
+    .typing-text p {
+      font-size: 18px;
+    }
+  
+    .content button {
+      width: 90px;
+      font-size: 14px;
+    }
+  
+    .result-details li p {
+      font-size: 16px;
+    }
+  
+    .result-details li span {
+      font-size: 18px;
+    }
+  }
+  
+  /* For devices with a max-width of 768px (tablets and smaller) */
+  @media (max-width: 768px) {
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .content-box {
+      padding: 12px;
+    }
+  
+    .typing-text p {
+      font-size: 16px;
+    }
+  
+    .content button {
+      width: 85px;
+      font-size: 14px;
+    }
+  
+    .result-details li p {
+      font-size: 15px;
+    }
+  
+    .result-details li span {
+      font-size: 16px;
+    }
+  
+    .result-details li:not(:first-child) span {
+      font-size: 16px;
+    }
+  }
+  
+  /* For devices with a max-width of 480px (mobile phones) */
+  @media (max-width: 480px) {
+    body {
+      display: block;
+      padding: 10px;
+      background: #17a2b8;
+    }
+  
+    .wrapper {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .content-box {
+      padding: 10px;
+    }
+  
+    .typing-text p {
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
+  
+    .typing-text p span.active::before {
+      height: 1px;
+    }
+  
+    .content button {
+      width: 80px;
+      font-size: 12px;
+      padding: 7px 0;
+    }
+  
+    .result-details li p {
+      font-size: 14px;
+    }
+  
+    .result-details li span {
+      font-size: 15px;
+    }
+    
+    .result-details li:not(:first-child) span {
+      font-size: 15px;
+    }
+  }
+  
+  /* For devices with a max-width of 320px (small mobile phones) */
+  @media (max-width: 320px) {
+    body {
+      padding: 5px;
+    }
+  
+    .wrapper {
+      padding: 5px;
+    }
+  
+    .content-box {
+      padding: 8px;
+    }
+  
+    .typing-text p {
+      font-size: 12px;
+      letter-spacing: 0.3px;
+    }
+  
+    .content button {
+      width: 75px;
+      font-size: 12px;
+      padding: 6px 0;
+    }
+  
+    .result-details li p {
+      font-size: 12px;
+    }
+  
+    .result-details li span {
+      font-size: 13px;
+    }
+    
+    .result-details li:not(:first-child) span {
+      font-size: 13px;
+    }
+  }
+  
 

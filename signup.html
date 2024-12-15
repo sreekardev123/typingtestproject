@@ -163,6 +163,85 @@ border-bottom: 2px solid #ff4081;
       margin-top: 25px;
       font-size: 15px;
     }
+    /* Media Queries */
+
+/* For devices with a max-width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .navabar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navb-itmes {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .signup {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-group input {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .sign-link {
+    font-size: 14px;
+  }
+}
+
+/* For devices with a max-width of 480px (mobile phones) */
+@media (max-width: 480px) {
+  .navabar {
+    padding: 8px;
+  }
+
+  .navb-itmes {
+    flex-direction: column;
+    font-size: 16px;
+  }
+
+  .signup {
+    max-width: 100%;
+    margin: 15px auto;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .form-group input {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .sign-link {
+    font-size: 13px;
+  }
+
+  .btn-facebook, .btn-google {
+    font-size: 14px;
+  }
+}
 
   </style>
 </head>
